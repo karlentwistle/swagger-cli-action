@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:12
+FROM node:14.15-alpine
 
 RUN npm install -g @apidevtools/swagger-cli@4.0.4
 
